@@ -15,7 +15,6 @@ void printStars(int number);
 int main()
 {
     int num1, num2, num3, num4, num5;
-    int counter;
     
     printf("Please enter 5 integers: ");
     scanf("%d%d%d%d%d", &num1, &num2, &num3, &num4, &num5);
