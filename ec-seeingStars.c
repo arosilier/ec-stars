@@ -20,29 +20,11 @@ int main()
     printf("Please enter 5 integers: ");
     scanf("%d%d%d%d%d", &num1, &num2, &num3, &num4, &num5);
     
-    for (counter = 0; counter < num1; counter++) {
-        printf("*");
-    }
-    printf("\n");
-
-    for (counter = 0; counter < num2; counter++) {
-        printf("*");
-    }
-    printf("\n");
-    
-    for (counter = 0; counter < num3; counter++) {
-        printf("*");
-    }
-    printf("\n");
-    
-    for (counter = 0; counter < num4; counter++) {
-        printf("*");
-    }
-    printf("\n");
-    
-    for (counter = 0; counter < num5; counter++) {
-        printf("*");
-    }
+    printStars(num1);
+    printStars(num2);
+    printStars(num3);
+    printStars(num4);
+    printStars(num5);
     
     return 0;
 }
